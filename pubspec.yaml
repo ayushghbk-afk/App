@@ -1,0 +1,25 @@
+name: minecraft_bot_host
+description: "Minecraft Bot Host - Run AFK bots 24/7 on your Android device"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.2.2
+  provider: ^6.1.1
+  google_fonts: ^6.1.0
+  flutter_local_notifications: ^17.0.0
+  uuid: ^4.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
